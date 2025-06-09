@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Time
 {
+    [BepInDependency("John.PineappleMod")]
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class Plugin : BaseUnityPlugin
     {
