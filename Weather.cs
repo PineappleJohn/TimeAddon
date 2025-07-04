@@ -20,10 +20,10 @@ namespace Time
 
             switch (weatherString)
             {
-                case "clear":
+                case "set clear":
                     SetWeather(BetterDayNightManager.WeatherType.None);
                     break;
-                case "rain":
+                case "set rain":
                     SetWeather(BetterDayNightManager.WeatherType.Raining);
                     break;
             }
